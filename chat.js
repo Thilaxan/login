@@ -1,4 +1,16 @@
 var firebaseConfig = {
+  apiKey: "AIzaSyCR_wZAVK7Z6xFg7FyB6-NRravQczyEm-k",
+  authDomain: "abcd-d6b82.firebaseapp.com",
+  databaseURL: "https://abcd-d6b82-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "abcd-d6b82",
+  storageBucket: "abcd-d6b82.firebasestorage.app",
+  messagingSenderId: "781068846223",
+  appId: "1:781068846223:web:087e3595872da34d315cfa",
+  measurementId: "G-W3GDC5B7XS"
+};
+
+// Initialize Firebase
+firebase.ivar firebaseConfig = {
   apiKey: "AIzaSyByaevOxIQWoQmJB7uDkY62THm-hKsvoYo",
   authDomain: "login-b8327.firebaseapp.com",
   databaseURL: "https://chat-6137d-default-rtdb.firebaseio.com",
@@ -8,9 +20,7 @@ var firebaseConfig = {
   appId: "1:323620041883:web:55941210d4afc145dd423e",
   measurementId: "G-FL1QW2F1PN"
 };
-
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+nitializeApp(firebaseConfig);
 
 const db = firebase.database();
 const auth = firebase.auth();
